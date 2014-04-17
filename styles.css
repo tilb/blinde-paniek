@@ -1,0 +1,155 @@
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+
+body {
+  background-color: #d0d7d3;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5em;
+  font-size: 18px;
+  color: #686e65;
+}
+
+h1, h2, h3 {
+  font-family: 'Arvo', serif;
+  line-height: 1.2em;
+  color: #222;
+}
+
+/*p {
+  text-align: justify;
+}*/
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.column {
+  float: left;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.col-1 {
+  width: 80px;
+}
+
+.col-2 {
+  width: 160px;
+}
+
+.col-3 {
+  width: 240px;
+}
+
+.col-4 {
+  width: 320px;
+}
+
+.col-5 {
+  width: 400px;
+}
+
+.col-6 {
+  width: 480px;
+}
+
+.col-7 {
+  width: 560px;
+}
+
+.col-8 {
+  width: 640px;
+}
+
+.col-9 {
+  width: 720px;
+}
+
+.col-10 {
+  width: 800px;
+}
+
+.col-11 {
+  width: 880px;
+}
+
+.col-12 {
+  width: 960px;
+}
+
+.pos-1 {
+  margin-left: 80px
+}
+
+.pos-2 {
+  margin-left: 160px
+}
+
+.pos-3 {
+  margin-left: 240px
+}
+
+.pos-4 {
+  margin-left: 320px
+}
+
+.pos-5 {
+  margin-left: 400px
+}
+
+.pos-6 {
+  margin-left: 480px
+}
+
+.pos-7 {
+  margin-left: 560px
+}
+
+.pos-8 {
+  margin-left: 640px
+}
+
+.pos-9 {
+  margin-left: 720px
+}
+
+.pos-10 {
+  margin-left: 800px
+}
+
+.pos-11 {
+  margin-left: 880px
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+ 
+.clearfix:after {
+  clear: both;
+}
+ 
+.clearfix {
+  *zoom: 1;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.logo {
+  background-image: url("images/blinde-paniek-logo.png");
+  width: 100%;
+  height: 340px;
+  background-size: cover;
+}
+
+.tagline {
+  text-transform: uppercase;
+  text-align: center;
+}
